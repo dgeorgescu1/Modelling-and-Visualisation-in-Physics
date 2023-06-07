@@ -1,0 +1,16 @@
+part a)
+
+I was not able to create a grid split into 'pie shaped wedges'. I was trying to use the functions np.split however this did not give me suitable pie wedges. I was also attempting to use the np.tri function which splits a 2d grid into triangles however this also proved difficult. I would assume that if a pie wedge initial condition can be created, it would evolve to somewhat spin 'i.e. the three states rotate). I managed to created two initial grids, one random, and split the grid into three horizontal strips
+
+
+part b)
+
+The graph named 'R100grid.png' shows the number of r states as a functon of sweeps. This as expected fluctautes somewhat around the grid size (number of cells) divided by three. As this is on a random grid as oposed to the 'pie wedge' grid, the pattern is fairly random and the number of rock states never dies out. I have interpreted 'the number of R states at a fixed point in the lattice' to mean the total number of R states at a given point in time. 
+
+part d)
+
+Also provided are the average fraction plots for minority phase and the corresponding variance plot. As can be seen, increasing p3 increases the average number of minority states, and indicates a phase change at around p3 ~ 0.08. This can also be seen in the variance plot where the peak is around this value. Higher resolution can be used to refine and hone in on critical point value but was not done due to time constraints. 
+
+part e)
+
+The heatmap shows that as you either increase either probability you increases the fraction of any minority phase. The update rule doesn't select any specific state however since p1 is higher, the chance of having paper is increased. the maximum is at the corner where p2 = p3 = 0.3
